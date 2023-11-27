@@ -7,7 +7,7 @@ public class LocalVariableClass {
 		// TODO Auto-generated method stub
 		
 		// local variable declared inside any method
-		//we can not used local variable without initiallization
+		// we can not used local variable without initiallization
 		// we can not access that value from outside the method
 		
 		
