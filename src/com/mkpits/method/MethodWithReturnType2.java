@@ -10,7 +10,7 @@ public class MethodWithReturnType2 {
 		
 	}
 
-	public void getAllData() {
+	    public void getAllData() {
 		System.out.println("The Above List is :- ");
 		System.out.println(getFirstName());
 		System.out.println(getLastName());
@@ -20,29 +20,29 @@ public class MethodWithReturnType2 {
 		System.out.println(getPassword());
 		
 	}
-	public  String getFirstName() {
+	public static String getFirstName() { 
 		String name = "samiksha";
 		return name;
 	}
 	
-	public String getLastName() {
+	public static String getLastName() {
 		String lastname = "Dorsetwar";
 		return lastname;
 	}
-	public String getEmail() {
+	public static String getEmail() {
 		String email = "paidlewarsamiksha@gmail.com";
 		return email;
 	}
-	public long getMobile() {
+	public  static long getMobile() {
 		long mobileno = 43567678;
 		return mobileno;
 		
 	}
-	public String getGender() {
+	public static String getGender() {
 		String gender = "female";
 		return gender;
 	}
-	public int getPassword() {
+	public  static int getPassword() {
 		int passwd = 4567;
 		return passwd;
 	}
