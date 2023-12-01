@@ -17,11 +17,11 @@ public class MethodWithReturnTypeAndArgunment {
 		System.out.println(vValue);
 		String xValue = user.getDetails(3, 12000);
 		System.out.println(xValue);
-		String zValue = user.getDetails(4, 13000);
+		String zValue = user.getDetails(4, 13000.50);
 		System.out.println(zValue);
 	}
 
-	private String getDetails(int id, int salary) {  // parameter
+	private String getDetails(int id, double salary) {  // parameter
 		// TODO Auto-generated method stub
 		double incentive = salary + (salary*0.1);
 		String details = "Id is :-"+id +"  salary with incentive is :-"+incentive;
