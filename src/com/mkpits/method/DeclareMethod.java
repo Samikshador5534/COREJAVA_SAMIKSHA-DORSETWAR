@@ -12,6 +12,8 @@ public class DeclareMethod {
 		//DeclareMethod.getGender();
 		//DeclareMethod.getPassword();
 		
+		//If method is defined using static keyword then it is called static method
+		
 		DeclareMethod getAllData = new DeclareMethod();
 		 getAllData.getFirstName();
 		 getAllData.getLastName();
@@ -21,6 +23,8 @@ public class DeclareMethod {
 		 getAllData.getPassword();
 		
 	}
+	
+	
 
 	public static void getFirstName() {
 		String name = "samiksha";
