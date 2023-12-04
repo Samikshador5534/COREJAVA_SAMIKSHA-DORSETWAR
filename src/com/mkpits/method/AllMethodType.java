@@ -52,7 +52,7 @@ public class AllMethodType {
 	// method with return type
 	
 	public  String getLastName() {
-		String name = "samiksha";
+		String name = "paidlewar";
 		return name;
 	}
 	
