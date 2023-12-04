@@ -59,7 +59,7 @@ public class AllMethodType {
 	//method with return type and argunment
 	
 	
-	private String getDetails(int id, double salary) {  // parameter
+	public String getDetails(int id, double salary) {  // parameter
 		// TODO Auto-generated method stub
 		double incentive = salary + (salary*0.1);
 		String details = "Id is :-"+id +"  salary with incentive is :-"+incentive;
