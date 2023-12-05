@@ -1,11 +1,11 @@
 package com.mkpits.oprators;
 
-public class All_Assignment_Operator {
+public class All_Arithematic_Operator {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		All_Assignment_Operator operator = new All_Assignment_Operator();
+		All_Arithematic_Operator operator = new All_Arithematic_Operator();
 		operator.addition_Of_Two_No();
 		operator.substraction_Of_Two_No();
 		operator.multiplication_Of_Two_No();
