@@ -16,7 +16,7 @@ public class All_Arithematic_Operator {
 	public void addition_Of_Two_No() {
 	     int num1 = 25;
 	     int num2 = 25;
-	     int Total = num1+=num2;
+	     int Total = num1+num2;
 	     System.out.println("Addition of two no is :-"+Total);
 	}
 	
