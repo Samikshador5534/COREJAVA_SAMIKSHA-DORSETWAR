@@ -12,7 +12,7 @@ public class ConstructorObject {
 		
 		ConstructorObject object2 = new ConstructorObject(33444,66600);
 		
-		ConstructorObject object3 = new ConstructorObject(object2);
+		ConstructorObject object3 = new ConstructorObject(object);
 		object.getDetails();
 		object2.getDetails();
 		object3.getDetails();

@@ -10,9 +10,9 @@ public class ReturnTypeIncrementMethod {
 
 			ReturnTypeIncrement rti = new ReturnTypeIncrement();
 			rti.value =rti.rtrnValue(rti.value);
-			System.out.println(rti.value);  // same value will be printed
+			System.out.println(rti.value);  // increment value will be printed
 			rti.value =rti.rtrnValue(rti.value);
-			System.out.println(rti.value);  // no increment will take place once value is printed 
+			System.out.println(rti.value);  //  increment will take place once value is printed 
 			rti.value =rti.rtrnValue(rti.value);
 			System.out.println(rti.value);  //even if we have to print in multiple times
 			rti.value =rti.rtrnValue(rti.value);

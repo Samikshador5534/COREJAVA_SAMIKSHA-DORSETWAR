@@ -22,6 +22,11 @@ public class NonStaticVar1 {
 		System.out.println(var.isActive);
 		System.out.println("byte no is :-"+var.no);
 		System.out.println("the roll no is :-"+var.no2);
+		var.getFirstName();
 	}
 
+	public void getFirstName() {
+		String name = "samiksha";
+		System.out.println("My First Name is :-"+name);
+	}
 }

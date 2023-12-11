@@ -1,7 +1,9 @@
 package com.mkpits.scopeofvariable;
 
 public class LocalVariableClass {
-	static int a=110;
+	static int a=110; //static variable
+	
+	int c = 30; // instances
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -11,11 +13,14 @@ public class LocalVariableClass {
 		// we can not access that value from outside the method
 		
 		
-		int a=10;
+		int a=10; //local variable
 	    System.out.println(a);
 		System.out.println(LocalVariableClass.a);
 		SecondClassStatic sc=new SecondClassStatic();
 		System.out.println(sc.StaticVar);
+		
+		LocalVariableClass variableClass = new LocalVariableClass();
+		System.out.println(variableClass.c);
 		
 
 		

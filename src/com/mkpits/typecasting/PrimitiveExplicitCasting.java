@@ -13,6 +13,10 @@ public class PrimitiveExplicitCasting {
 		byte output = (byte)pincode;
 		System.out.println(output);
 		
+		byte no=56;
+		int yes = (int)no;
+		System.out.println(yes);
+		
 		
 		
 		long mobileNo = 45854984893l;

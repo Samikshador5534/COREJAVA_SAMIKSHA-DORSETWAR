@@ -14,7 +14,7 @@ public class PrimitiveToObjectCasting {
 		int pincode = 56478;
 		Integer m = new Integer(pincode);
 		System.out.println(m);
-		
+b 		
 		char name = 'd';
 		Character output = new Character(name);
 		System.out.println(name);
