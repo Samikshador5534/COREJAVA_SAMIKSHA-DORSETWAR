@@ -18,7 +18,7 @@ public class ForLoop {
 		int n = Integer.parseInt(BR.readLine());
 		
 		for (int i = n ; i>=1;i--) {
-			fact = n*n-1;
+			fact*=i*1;
 			//System.out.println("Fctorial no is :-"+fact);
 			
 		}
