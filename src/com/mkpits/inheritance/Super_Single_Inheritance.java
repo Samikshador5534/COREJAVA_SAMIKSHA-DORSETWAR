@@ -1,7 +1,6 @@
 package com.mkpits.inheritance;
 
 
-
 public class Super_Single_Inheritance {
 
 	String fName,lName,email;
