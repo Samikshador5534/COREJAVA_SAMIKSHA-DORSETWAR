@@ -13,7 +13,7 @@ public class Details {
 		
 	}
 
-	protected void getlName()
+	protected void getlName(String lName)
 	{
 		this.lName=lName;
 		System.out.println("last Name is :-"+lName);

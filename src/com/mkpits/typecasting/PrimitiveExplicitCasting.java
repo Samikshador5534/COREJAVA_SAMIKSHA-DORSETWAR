@@ -9,7 +9,7 @@ public class PrimitiveExplicitCasting {
 		// so that we must have to use explicit casting 
 		 // it is also called as narrowing conversion
 		
-		int pincode = 68;
+	    int pincode = 68;
 		byte output = (byte)pincode;
 		System.out.println(output);
 		
@@ -35,6 +35,11 @@ public class PrimitiveExplicitCasting {
 		String   s = "f" ;
 		String  m = (String)(s);
 		System.out.println(s);
+		
+		
+		short ui = 124;
+		char v = (char)ui;
+		System.out.println(v);
 		
 		
 		
