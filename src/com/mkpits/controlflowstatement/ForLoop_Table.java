@@ -12,7 +12,7 @@ public class ForLoop_Table {
 		int table ;
 		BufferedReader reader = new BufferedReader (new InputStreamReader(System.in));
 		
-		System.out.println("enter a number");
+	//	System.out.println("enter a number");
 		int n = Integer.parseInt(reader.readLine());
 		
 
