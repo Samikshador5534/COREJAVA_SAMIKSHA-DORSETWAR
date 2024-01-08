@@ -14,7 +14,7 @@ public class PrimitiveToObjectCasting {
 		int pincode = 56478;
 		Integer m = new Integer(pincode);
 		System.out.println(m);
-b 		
+
 		char name = 'd';
 		Character output = new Character(name);
 		System.out.println(name);
@@ -34,12 +34,17 @@ b
 		System.out.println(e);
 		
 		short a = 45;
+		
 	    Short s =  new Short(a);
 	    System .out.println(s);
 
 	    long l = 67899543l;
 	    Long v = new Long(a);
 	    System.out.println(v);
+	    
+	    int as = 34;
+	    short n = (short)as;
+	    System.out.println(n);
 	}
 
 }
