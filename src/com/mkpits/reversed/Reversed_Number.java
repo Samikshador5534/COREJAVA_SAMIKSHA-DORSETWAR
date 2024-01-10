@@ -22,7 +22,7 @@ public class Reversed_Number {
 	     System.out.println("enter Number: ");
 	 	int num = Integer.parseInt(BR.readLine());
 
-	  
+	   
 	    while(num != 0) 
 	    {
 	    

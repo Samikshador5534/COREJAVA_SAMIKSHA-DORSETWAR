@@ -45,7 +45,7 @@ public class SecondLargestElement {
 			}
 
 		}
-		 System.out.println("The  smallest largest element is: " +secondlargest);
+		 System.out.println("The second largest element is: " +secondlargest);
 		 
 
       System.out.println("After sorting Array");
