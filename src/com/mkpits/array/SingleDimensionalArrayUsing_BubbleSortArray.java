@@ -16,7 +16,7 @@ public class SingleDimensionalArrayUsing_BubbleSortArray {
 		
 		
 		
-		//int code[] = {10,20,30,40,50};
+		//
 		for (int i = 0; i < code.length; i++) {
 			  code[i] = Integer.parseInt(reader.readLine());
 		}
