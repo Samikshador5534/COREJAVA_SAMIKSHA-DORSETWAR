@@ -13,7 +13,7 @@ public class Donkey implements Animal {
 	public void sleep() {
 		// TODO Auto-generated method stub
 		
-		System.out.println("fsh...fsh.....");
+		System.out.println("fssh...fsh.....");
 	}
 
 	

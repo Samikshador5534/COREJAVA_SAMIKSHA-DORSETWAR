@@ -6,7 +6,7 @@ public class cow implements Animal{
 	public void animalsound() {
 		// TODO Auto-generated method stub
 		
-		System.out.println("the cow sound : hambaaa.......");
+		System.out.println("the cow sound : hambaaaa.......");
 	}
 
 	@Override

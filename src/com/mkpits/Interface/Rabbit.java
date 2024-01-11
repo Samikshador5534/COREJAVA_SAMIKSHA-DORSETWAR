@@ -13,7 +13,7 @@ public class Rabbit implements Animal{
 	public void sleep() {
 		// TODO Auto-generated method stub
 		
-		System.out.println("hmmmmmmmmmmmmm");
+		System.out.println("hmmmmmmmmmmmmm...");
 	}
 
 }
