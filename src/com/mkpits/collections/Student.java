@@ -1,4 +1,4 @@
-package com.mkpits.arraylist;
+package com.mkpits.collections;
 
 public class Student {
 
